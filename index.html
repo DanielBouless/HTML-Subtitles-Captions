@@ -49,12 +49,18 @@
         <!-- TODO: Put the pigeons in love MP4 video here-->
         <!-- Include a track tag with the src attribute set to "dog-video.vtt" -->
         <video controls>
-          <source src="assets/videos/pigeons-in-love.mp4" />
+          <source src="assets/videos/pigeons-in-love.mp4" type="video/mp4" />
           <track
             src="assets/text-tracks/pigeons-in-love-english.vtt"
             kind="subtitles"
             srclang="en"
             label="english subtitles"
+          />
+          <track
+            src="assets/text-tracks/pigeons-in-love-french.vtt"
+            kind="subtitles"
+            srclang="fr"
+            label="French subtitles"
           />
         </video>
         <!-- This video should have controls and two track tags (for example, for English AND French subtitles) -->
